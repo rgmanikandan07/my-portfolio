@@ -1,0 +1,184 @@
+.container{
+    width: 1340px;
+    margin: auto;
+}
+.first-head{
+    display: flex;
+    justify-content: center;
+    background: transparent;
+    background-color: rgb(43, 43, 42);
+    height: 50px;
+    padding-top: 30px;
+}
+.first-head li{
+    list-style-type: none;
+    margin-left: 100px;
+    white-space: nowrap;
+    font-size: 15px;
+    color: #fff;
+    font-family: "Raleway", sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    border: none;
+}
+.first-head li:hover{
+    color: #ffb727;
+}
+
+.banner-img img{
+    width: 1340px;
+    position: absolute;
+    height: 560px;
+}
+.banner-text h2{
+    position: relative;
+    margin: 0 0 10px 0;
+    font-size: 50px;
+    font-family: "Kaushan Script", cursive;
+    transform: rotate(-5deg);
+    letter-spacing: 10px;
+    color: #fff;
+    padding-top: 160px;
+    text-align: center;
+}
+.banner-text p{
+    position: relative;
+    color: #eee;
+    margin-bottom: 50px;
+    font-size: 13px;
+    font-weight: 500;
+    padding-top: 40px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.banner-icon{
+    position: relative;
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+}
+.banner-icon i{
+    margin-left: 40px;
+}
+
+.about-section{
+    margin-top:200px;
+    text-align: center;
+}
+.about-section h1{
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding-bottom: 0;
+    color: #3b434a;
+    position: relative;
+    font-family: "Raleway", sans-serif;
+}
+.about-section p{
+    letter-spacing: 1px;
+}
+.about-text{
+    display: flex;
+}
+.about-text li{
+    list-style-type: none;
+    margin-top: 30px;
+}
+.about-first-li{
+    width: 100%;
+    font-size: larger;
+    padding-left: 350px;
+}
+.about-second-li{
+    width: 100%;
+    font-size: larger;
+    padding-right: 150px;
+}
+
+.skill{
+    margin-top: 80px;
+    text-align: center;
+}
+.skill-head h1{
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding-bottom: 0;
+    color: #3b434a;
+    position: relative;
+    font-family: "Raleway", sans-serif;
+}
+.skill-content{
+    margin-top: 40px;
+}
+.skill-box progress{
+    width: 80%;
+    height: 10px;
+    border-radius: 0;
+}
+.skill-box .skill-number{
+	margin-left:900px;
+}
+
+
+
+.resume{
+    margin-top: 50px;
+    border: solid 2px rgb(48, 40, 40);
+    background-color: #3b434a;
+    color: #eee;
+}
+.resume-header{
+    text-align: center;
+}
+.resume hr{
+    width: 80%;
+}
+.resume-header h1{
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding-bottom: 0;
+    color: #eee;
+    position: relative;
+    font-family: "Raleway", sans-serif;
+}
+.resume-head{
+    text-align: end;
+    margin-top: 20px;
+    padding-right: 130px;
+}
+.resume-head li{
+    list-style-type: none;
+    margin-top: 10px;
+}
+.resume-objective{
+    text-align: center;
+}
+.resume-section{
+    display: flex;
+}
+.resume-section-1{
+    padding-left: 200px;
+}
+.resume-section li{
+    list-style-type: none;
+}
+.resume-section li strong{
+    padding-left: 20px;
+}
+.resume-section-2{
+    margin-left: 250px;
+}
+.resume-section-2 li{
+    margin-top: 20px;
+}
+.resume-declare{
+    text-align: center;
+    margin-top: 50px;
+}
