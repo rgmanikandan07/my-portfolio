@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>MY PORTFOLIO</title>
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/icofont.min.css">
 </head>
@@ -14,33 +14,37 @@
     <section class="header">
         <section class="container">
             <div class="first-head">
-                <li>HOME</li>
-                <li>ABOUT</li>
-                <li>RESUME</li>
-                <li>CONTACT</li>
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#skill">SKILLS</a></li>
+                <li><a href="#resume">RESUME</a></li>
+                <li><a href="#contact">CONTACT</a></li>
             </div>
         </section>
     </section>
 
-    <section class="banner">
+    <section id="home" class="banner">
         <section class="container">
             <div class="banner-img">
                 <img src="portfolio-bg.jpg" alt="picture">
             </div>
+            <div class="banner-little-img">
+                <img src="maniiii.jpg" alt="picture">
+            </div>
             <div class="banner-text">
-                <h2>-ManiKandan R-</h2>
-                <p>I'M A WEB DEVELOPER</p>
+                <h2><span style="color:rgb(225, 226, 219);" class="auto-type2"></span></h2>
+                <p>I'M A <span style="color:yellow;" class="auto-type"></span></p>
             </div>
             <div class="banner-icon">
-                <i class="icofont-twitter"></i>
-                <i class="icofont-facebook"></i>
-                <i class="icofont-instagram"></i>
-                <i class="icofont-linkedin"></i>
+                <a href=""><i class="icofont-twitter"></i></a>
+                <a href="https://www.facebook.com/rg.mani.370"><i class="icofont-facebook"></i></a>
+                <a href=""><i class="icofont-instagram"></i></a>
+                <a href=""><i class="icofont-linkedin"></i></a>
             </div>
         </section>
     </section>
 
-    <section class="about">
+    <section id="about" class="about">
         <section class="container">
             <div class="about-section">
                 <h1>ABOUT ME</h1>
@@ -58,7 +62,7 @@
                     </li>
                     <li><i class="icofont-hand-drawn-right"></i>
                         <stron><b>Phone:</b></stron>
-                        <span>+91 7558127709</span>
+                        <span>7558127709</a></span>
                     </li>
                     <li><i class="icofont-hand-drawn-right"></i>
                         <stron><b>City:</b></stron>
@@ -76,7 +80,7 @@
                     </li>
                     <li><i class="icofont-hand-drawn-right"></i>
                         <stron><b>E-mail:</b></stron>
-                        <span>rgmanimani0707@gmail.com</span>
+                        <span><a href="rgmanimani0707@gmail.com">rgmanimani0707@gmail.com</a></span>
                     </li>
                     <li><i class="icofont-hand-drawn-right"></i>
                         <stron><b>Freelance:</b></stron>
@@ -87,7 +91,7 @@
         </section>
     </section>
 
-    <section class="skill">
+    <section id="skill" class="skill">
         <section class="container">
             <div class="skill-head">
                 <h1>Skills</h1>
@@ -113,7 +117,7 @@
         </section>
     </section>
 
-    <section class="resume">
+    <section id="resume" class="resume">
         <section class="container">
             <div class="resume-header">
                 <h1>MY RESUME</h1>
@@ -121,7 +125,7 @@
                 <hr>
             </div>
             <div class="resume-img">
-                <!-- <img src="my image.jpg" alt="pic">  -->
+                <!-- <img src="images/my image.jpg" alt="pic">  -->
             </div>
             <div class="resume-head">
                 <li>Manikandan R</li>
@@ -135,8 +139,8 @@
             <div class="resume-objective">
                 <h1>OBJECTIVE</h1>
                 <p>To work in a challenging environment where I can
-                contribute my knowledge and develop my skills forwards the growth
-                of my organization and my life.</p>
+                    contribute my knowledge and develop my skills forwards the growth
+                    of my organization and my life.</p>
             </div>
             <div class="resume-section">
                 <div class="resume-section-1">
@@ -169,12 +173,31 @@
             <div class="resume-declare">
                 <h1>DECLARATION</h1>
                 <p>In View of the above,I request you to give
-                mean opportunity to serve in your esteemed organization.
-                I assure that the above <br>written particulars are best of my
-                knowledge and belief.</p>
+                    mean opportunity to serve in your esteemed organization.
+                    I assure that the above written particulars<br> are best of my
+                    knowledge and belief.</p>
             </div>
         </section>
     </section>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <script>
+        var type = new Typed(".auto-type", {
+            strings: ["designer", "freelancer", "developer"],
+            typeSpeed: 150,
+            backSpeed: 150,
+            loop: true
+        })
+        var type = new Typed(".auto-type2", {
+            strings: ["-Manikandan R-"],
+            typeSpeed: 150,
+            // backSpeed: 150,
+            loop: true
+        })
+    </script>
 </body>
 
 </html>
