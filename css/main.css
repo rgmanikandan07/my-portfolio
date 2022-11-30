@@ -194,17 +194,17 @@ p {
 #header .hamburger .bar::before {
 	bottom: 8px;
 }
-#header .hamburger.active .bar::before {
+/* #header .hamburger.active .bar::before {
 	bottom: 0;
 }
 #header .hamburger.active .bar::after {
 	top: 0;
-}
+} */
 /* End Header section */
 
 /* Hero Section */
 #hero {
-	background-image: url(/css/Banner-1.png);
+	background-image: url(../css/Banner-1.png);
 	background-size: cover;
 	background-position: top center;
 	position: relative;
@@ -273,7 +273,7 @@ p {
 	flex-direction: column-reverse;
 	text-align: center;
 	max-width: 1200px;
-	margin: 0 auto;
+	margin: 0;
 	padding: 100px 20px;
 }
 #about .col-left {
@@ -372,7 +372,7 @@ p {
 
 .portfolio .box-container .box .content h3{
     font-size: 2.5rem;
-    color:var(--black);
+    color: orangered;
     text-transform: uppercase;
     transform: translateY(-5rem);
     opacity: 0;
@@ -413,7 +413,6 @@ p {
 	flex-direction: column;
 	padding: 30px;
 	border-radius: 10px;
-	background-image: url(./img/img-1.png);
 	background-size: cover;
 	margin: 10px 5%;
 	position: relative;
